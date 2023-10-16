@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
-import { Pencil, Plus, X } from "lucide-react";
+import { Plus, X } from "lucide-react";
 import { Link } from "react-router-dom";
 import DeleteDesks from "./api/DeleteDeck";
 import GetDecks from "./api/GetDecks";

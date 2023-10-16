@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import { Link, useParams } from "react-router-dom";
 import CreateCards from "./api/CreateCards";
-import { DeckData } from "./App";
+// import { DeckData } from "./App";
 import { getSingleDeck } from "./api/GetSingleDeck";
 import { ChevronLeft, X } from "lucide-react";
 import DeleteSingleCards from "./api/DeleteSingleCard";
@@ -13,7 +13,7 @@ function Cards() {
   const [cards, setCards] = useState<string[]>([]);
   const { deckId } = useParams();
   // const [deck, setDeck] = useState<DeckData | undefined>();
-  const [deck, setDeck] = useState<DeckData | undefined>();
+  // const [deck, setDeck] = useState<DeckData | undefined>();
 
   async function handleCreateCards() {
     const { cards: serverCards } = await CreateCards(deckId!, text);
@@ -33,7 +33,8 @@ function Cards() {
     async function fetchSingleDeck() {
       if (!deckId) return;
       const newDeck = await getSingleDeck(deckId);
-      setDeck(newDeck);
+      // setDeck(newDeck);
+      console
       setCards(newDeck.cards);
     }
     fetchSingleDeck();
