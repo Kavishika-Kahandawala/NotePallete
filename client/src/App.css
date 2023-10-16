@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #292d3e;
+}
+
+/* .decks-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 1 fr = Expand these cols to meet the full width of the container
+  width: 600px;
+  margin: 0 auto;
+  gap: 10px;
+} */
+
+/* .decks-list li {
+  display: block;
+  height: 120px;
+  background-color: white;
+  border: 1px solid white;
+} */
