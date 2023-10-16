@@ -4,7 +4,7 @@ import { Link, useParams } from "react-router-dom";
 import CreateCards from "./api/CreateCards";
 import { DeckData } from "./App";
 import { getSingleDeck } from "./api/GetSingleDeck";
-import { ArrowLeft, ArrowLeftFromLineIcon, ChevronLeft, X } from "lucide-react";
+import { ChevronLeft, X } from "lucide-react";
 import DeleteSingleCards from "./api/DeleteSingleCard";
 import MyCard from "./components/MyCard";
 
