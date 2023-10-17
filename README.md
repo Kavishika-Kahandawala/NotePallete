@@ -1,4 +1,4 @@
-![nest](https://github.com/Kavishika-Kahandawala/NotePallete/assets/25774028/746aff3d-c937-48f9-9862-b7989ae2ad5a)# NotePallete - MERN stack application with Nest.js
+# NotePallete - MERN stack application with Nest.js
 
 A sticky notes type web application I built under MERN Stack to learn more about those technologies.<br/>
 
@@ -10,15 +10,21 @@ API At: https://api-notepallete.onrender.com/
 ## Technologies
 
 <br/>
+
 <p align="center">
-  <a href="https://vitejs.dev/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" height="80"/></a>
+<a href="https://react.dev/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="80"/></a>
 &nbsp;&nbsp;
-
-  <a href="https://react.dev/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="80"/></a>
+<a href="https://nestjs.com/"><img src="https://github.com/Kavishika-Kahandawala/NotePallete/assets/25774028/746aff3d-c937-48f9-9862-b7989ae2ad5a" height="80"/></a>
 &nbsp;&nbsp;
-![Vite](https://github.com/Kavishika-Kahandawala/NotePallete/assets/25774028/8a4e7cd8-db43-46a7-a280-1d0192220087)
+<a href="https://www.mongodb.com/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="80"/></a>
+&nbsp;&nbsp;
+<a href="https://www.typescriptlang.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="80"/></a>
+&nbsp;
+<a href="https://vitejs.dev/"><img src="https://github.com/Kavishika-Kahandawala/NotePallete/assets/25774028/8a4e7cd8-db43-46a7-a280-1d0192220087" height="80"/></a>
+&nbsp;&nbsp;
 </p>
-
+<br/>
+<br/>
 
 This project made using MERN stack includes,
 
