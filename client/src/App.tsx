@@ -40,6 +40,8 @@ function App() {
   }, []);
 
   const [backendStatus, setBackendStatus] = useState("Checking backend status...");
+
+  useEffect(() => {
     fetch("https://api-notepallete.onrender.com/", { mode: "no-cors" })
       .then(() => {
         // No response info available in no-cors mode, so just assume success
