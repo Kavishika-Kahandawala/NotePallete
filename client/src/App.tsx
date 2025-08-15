@@ -57,7 +57,7 @@ function App() {
   return (
     <>
       <div className=" gap-10 mx-20 my-10">
-        <div className="lg:text-xl text-xl text-white "><p id="status">Checking backend status...</p></div>
+        <div className="lg:text-xl text-xl text-white "><p id="status">{backendStatus}</p></div>
         <div className="lg:text-6xl text-2xl text-white font-semibold">Your Decks</div>
       </div>
       <ul className="grid lg:grid-cols-2 xl:grid-cols-3 gap-10 mx-20 my-10 lg:mx-52">
