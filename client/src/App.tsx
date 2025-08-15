@@ -39,6 +39,19 @@ function App() {
     fetchData();
   }, []);
 
+  const [backendStatus, setBackendStatus] = useState("Checking backend status...");
+    fetch("https://api-notepallete.onrender.com/", { mode: "no-cors" })
+      .then(() => {
+        // No response info available in no-cors mode, so just assume success
+        setBackendStatus("🟢 Backend is online");
+      })
+      .catch(() => {
+        setBackendStatus(
+          "🔴 Backend is offline. 🚨 Still on cold boot. Please refresh in a bit"
+        );
+      });
+  }, []);
+
   return (
     <>
       <div className=" gap-10 mx-20 my-10">
@@ -106,17 +119,6 @@ function App() {
       </div>
 
       <div className="py-10"></div>
-      <script>
-    fetch('https://api-notepallete.onrender.com/', { mode: 'no-cors' })
-      .then(res => {
-        console.log('Success:', res);
-        document.getElementById('status').textContent = '🟢 Backend is online';
-      })
-      .catch(err => {
-        console.error('Error:', err);
-        document.getElementById('status').textContent = '🔴 Backend is offline. 🚨 Still on cold boot. Please refresh in a bit';
-      });
-  </script>
 
     </>
   );
