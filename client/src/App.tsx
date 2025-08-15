@@ -39,7 +39,7 @@ function App() {
     fetchData();
   }, []);
 
-  const [backendStatus, setBackendStatus] = useState("Checking backend status...");
+  const [backendStatus, setBackendStatus] = useState("🔴 Backend is offline. 🚨 Still on cold boot. Please refresh in a bit");
 
   useEffect(() => {
     fetch("https://api-notepallete.onrender.com/", { mode: "no-cors" })
